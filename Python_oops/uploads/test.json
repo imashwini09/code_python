@@ -1,0 +1,10 @@
+{
+    "id":12345,
+    "channel":[
+        {
+            "name":"XYZ"
+        }
+    ],
+    "dynamicData1":"",
+    "dynamicData2":""
+}
