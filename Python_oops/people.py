@@ -9,7 +9,7 @@ print ('Memory (Before): {}Mb'.format(mem_profile.memory_usage_psutil()))
 
 def people_list(num_people):
     result = []
-    for i in xrange(num_people):
+    for i in range(num_people):
         person = {
                     'id': i,
                     'name': random.choice(names),
@@ -19,7 +19,7 @@ def people_list(num_people):
     return result
 
 def people_generator(num_people):
-    for i in xrange(num_people):
+    for i in range(num_people):
         person = {
                     'id': i,
                     'name': random.choice(names),
