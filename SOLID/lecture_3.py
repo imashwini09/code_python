@@ -1,15 +1,3 @@
-from abc import ABC, abstractmethod
-
-
-class SwitchAble(ABC):
-    @abstractmethod
-    def turn_on(self):
-        pass
-    @abstractmethod
-    def turn_off(self):
-        pass
-
-
 class Switch:
     def __init__(self,appliance):
         self.appliance = appliance
@@ -20,17 +8,18 @@ class Switch:
         else:
             self.appliance.turn_off()
 
-class Light(SwitchAble):
+class Light():
     def turn_on(self):
         print("Light Turning On")
     def turn_off(self):
          print("Light Turning Off")
 
-class Fan(SwitchAble):
-    def turn_on(self):
+class Fan():
+    def turn_on_fan(self):
         print("Fan Turning On")
-    def turn_off(self):
+    def turn_off_fan(self):
          print("Fan Turning Off")
+
 
 light = Light()
 s = Switch(light)
