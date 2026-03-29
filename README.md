@@ -18,7 +18,6 @@ A comprehensive collection of Python code examples and tutorials covering core c
 | [`Pydantic_tutorial`](./Pydantic_tutorial) | Data validation and settings management using Pydantic |
 | [`Python_oops`](./Python_oops) | Object-Oriented Programming — classes, objects, encapsulation, polymorphism |
 | [`SOLID`](./SOLID) | SOLID design principles with Python examples |
-| [`Scalar`](./Scalar) | Scalar data types and operations |
 | [`Thread_tutorial`](./Thread_tutorial) | Multi-threading with the `threading` module |
 | [`Typing_Generics`](./Typing_Generics) | Type hints, generics, and the `typing` module |
 | [`absraction`](./absraction) | Abstraction using abstract base classes (`ABC`) |
